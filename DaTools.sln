@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaTools.NameMaker", "DaTools.NameMaker\DaTools.NameMaker.csproj", "{7A436E8E-7F14-4FD0-8939-7D77BB22938C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaTools.Test", "DaTools.Test\DaTools.Test.csproj", "{AB6B7739-92D8-49EC-B757-4025146B263A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A436E8E-7F14-4FD0-8939-7D77BB22938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A436E8E-7F14-4FD0-8939-7D77BB22938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A436E8E-7F14-4FD0-8939-7D77BB22938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A436E8E-7F14-4FD0-8939-7D77BB22938C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6B7739-92D8-49EC-B757-4025146B263A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6B7739-92D8-49EC-B757-4025146B263A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6B7739-92D8-49EC-B757-4025146B263A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6B7739-92D8-49EC-B757-4025146B263A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
