@@ -8,6 +8,27 @@ namespace DaTools.NameMaker
 {
     public static class Creator
     {
+        public static string Build(string[] firstList, NameType secondPart)
+        {
+            return Build(secondPart, firstList);
+        }
+
+        public static string Build(NameType firstPart, string[] secondList)
+        {
+            StringBuilder toReturn = new StringBuilder();
+            Random rand = new Random(DateTime.Now.Millisecond);
+
+            string firstRessourceName = ExtractRessouceName(firstPart);
+            var assembly = Assembly.GetExecutingAssembly();
+            string[] elems = GetElems(firstRessourceName, assembly);
+
+            toReturn.Append(ChoiseFromElems(elems, rand));
+            toReturn.Append(".");
+            toReturn.Append(ChoiseFromElems(secondList, rand));
+
+            return toReturn.ToString();
+        }
+
         public static string Build(string[] firstList, string[] secondList)
         {
             StringBuilder toReturn = new StringBuilder();
