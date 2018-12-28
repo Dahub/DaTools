@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dahub</Authors>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Dahub/DaTools</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>

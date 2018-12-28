@@ -8,6 +8,9 @@
     <Authors>Dahub</Authors>
     <Product />
     <Company />
+    <PackageProjectUrl>https://github.com/Dahub/DaTools</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
